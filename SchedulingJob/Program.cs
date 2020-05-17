@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SchedulingJob.Service;
+using System;
 
 namespace SchedulingJob
 {
@@ -6,7 +7,12 @@ namespace SchedulingJob
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            JobService jobs = new JobService();
+
+            foreach (var job in jobs.OrganizarJobs())
+            {
+                Console.WriteLine(job.Id);
+            }
 
             Console.ReadLine();
         }

@@ -11,7 +11,9 @@ namespace SchedulingJob.Repository
 
             var SegundoJob = new Job { Id = 2, Descricao = "Importação de dados da Base Legada", DataConclusao = new DateTime(2019, 11, 11, 12, 00, 00), TempoEstimado = 4 };
 
-            var TerceiroJob = new Job { Id = 4, Descricao = "Importação de dados de integração", DataConclusao = new DateTime(2019, 11, 11, 08, 00, 00), TempoEstimado = 6 };
+            var TerceiroJob = new Job { Id = 3, Descricao = "Importação de dados de integração", DataConclusao = new DateTime(2019, 11, 11, 08, 00, 00), TempoEstimado = 6 };
+
+
 
             List<Job> jobs = new List<Job>();
 
@@ -20,6 +22,7 @@ namespace SchedulingJob.Repository
             jobs.Add(SegundoJob);
 
             jobs.Add(TerceiroJob);
+
 
             return jobs;
         }
