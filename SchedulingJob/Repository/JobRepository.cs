@@ -7,11 +7,11 @@ namespace SchedulingJob.Repository
     {
         public List<Job> Obter()
         {
-            var PrimeiroJob = new Job { Id = 1, Descricao = "Importação de arquivos de fundos", DataConclusao = new DateTime(2019, 11, 10, 12, 0, 0), TempoEstimado = 2 };
+            var PrimeiroJob = new Job { Id = 1, Descricao = "Importação de arquivos de fundos", DataConclusao = new DateTime(2019, 11, 10, 12, 00, 00), TempoEstimado = 2 };
 
-            var SegundoJob = new Job { Id = 1, Descricao = "Importação de dados da Base Legada", DataConclusao = new DateTime(), TempoEstimado = 4 };
+            var SegundoJob = new Job { Id = 2, Descricao = "Importação de dados da Base Legada", DataConclusao = new DateTime(2019, 11, 11, 12, 00, 00), TempoEstimado = 4 };
 
-            var TerceiroJob = new Job { Id = 1, Descricao = "Importação de dados de integração", DataConclusao = new DateTime(), TempoEstimado = 6 };
+            var TerceiroJob = new Job { Id = 4, Descricao = "Importação de dados de integração", DataConclusao = new DateTime(2019, 11, 11, 08, 00, 00), TempoEstimado = 6 };
 
             List<Job> jobs = new List<Job>();
 
