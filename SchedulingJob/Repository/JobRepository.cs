@@ -7,7 +7,21 @@ namespace SchedulingJob.Repository
     {
         public List<Job> Obter()
         {
-            throw new NotImplementedException();
+            var PrimeiroJob = new Job { Id = 1, Descricao = "Importação de arquivos de fundos", DataConclusao = new DateTime(2019, 11, 10, 12, 0, 0), TempoEstimado = 2 };
+
+            var SegundoJob = new Job { Id = 1, Descricao = "Importação de dados da Base Legada", DataConclusao = new DateTime(), TempoEstimado = 4 };
+
+            var TerceiroJob = new Job { Id = 1, Descricao = "Importação de dados de integração", DataConclusao = new DateTime(), TempoEstimado = 6 };
+
+            List<Job> jobs = new List<Job>();
+
+            jobs.Add(PrimeiroJob);
+
+            jobs.Add(SegundoJob);
+
+            jobs.Add(TerceiroJob);
+
+            return jobs;
         }
     }
 }
