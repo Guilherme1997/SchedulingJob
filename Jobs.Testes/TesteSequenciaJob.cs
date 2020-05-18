@@ -19,7 +19,7 @@ namespace Jobs.Testes
 
         public static List<int> ObterJobsEsperados()
         {
-            return new List<int> { 1, 2, 2 };
+            return new List<int> { 1, 3, 2 };
         }
     }
 }
