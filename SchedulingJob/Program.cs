@@ -7,9 +7,8 @@ namespace SchedulingJob
     {
         static void Main(string[] args)
         {
-            JobService jobs = new JobService();
 
-            foreach (var job in jobs.OrganizarJobs())
+            foreach (var job in JobService.OrganizarJobs())
             {
                 Console.WriteLine(job.Id);
             }

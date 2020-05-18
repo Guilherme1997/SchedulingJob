@@ -4,9 +4,9 @@ using System.Linq;
 
 namespace SchedulingJob.Service
 {
-    class JobService : IJobService
+    public class JobService
     {
-        public IEnumerable<Job> OrganizarJobs()
+        public static IEnumerable<Job> OrganizarJobs()
         {
             JobRepository jobRepository = new JobRepository();
 
