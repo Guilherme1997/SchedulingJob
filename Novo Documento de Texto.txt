@@ -8,8 +8,8 @@ Pré-requisitos:
 
 Passo a Passo:
 
-	Para executar o teste automatizado, vá para o diretório SchedulingJob (pasta raiz do projeto), 
-	abra o cmd e digite o seguinte comando no prompt: dotnet test.
+	Para executar o teste automatizado, permaneca na pasta onde contem o arquivo SchedulingJob.sln  		(pasta raiz do projeto), abra o cmd e digite o seguinte comando no prompt: dotnet test.
 
 	Para executar o projeto do console, vá para o diretório SchedulingJob\SchedulingJobApplication, 
 	abra o cmd e digite o seguinte comando no prompt: dotnet run.
+
