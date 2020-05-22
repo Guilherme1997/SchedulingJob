@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SchedulingJob\SchedulingJob.csproj" />
+    <ProjectReference Include="..\SchedulingJob\SchedulingJobApplication.csproj" />
   </ItemGroup>
 
 </Project>

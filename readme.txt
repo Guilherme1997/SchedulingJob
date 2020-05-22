@@ -1,0 +1,15 @@
+Pré-requisitos:
+
+	Para começar, você precisa ter:
+
+	.NET Core
+		Site para a instalação: https://dotnet.microsoft.com/download
+
+
+Passo a Passo:
+
+	Para executar o teste automatizado, vá para o diretório SchedulingJob (pasta raiz do projeto), 
+	abra o cmd e digite o seguinte comando no prompt: dotnet test.
+
+	Para executar o projeto do console, vá para o diretório SchedulingJob\SchedulingJobApplication, 
+	abra o cmd e digite o seguinte comando no prompt: dotnet run.

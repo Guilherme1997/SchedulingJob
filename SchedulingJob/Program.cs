@@ -1,7 +1,7 @@
 ﻿using SchedulingJob.Service;
 using System;
 
-namespace SchedulingJob
+namespace SchedulingJobApplication
 {
     class Program
     {
